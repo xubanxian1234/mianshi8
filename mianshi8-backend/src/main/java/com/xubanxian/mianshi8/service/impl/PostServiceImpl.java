@@ -5,6 +5,9 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xubanxian.mianshi8.common.ErrorCode;
 import com.xubanxian.mianshi8.constant.CommonConstant;
+import com.xubanxian.mianshi8.mapper.PostFavourMapper;
+import com.xubanxian.mianshi8.mapper.PostMapper;
+import com.xubanxian.mianshi8.mapper.PostThumbMapper;
 import com.xubanxian.mianshi8.model.dto.post.PostEsDTO;
 import com.xubanxian.mianshi8.model.dto.post.PostQueryRequest;
 import com.xubanxian.mianshi8.model.entity.Post;
@@ -47,8 +50,6 @@ import org.springframework.stereotype.Service;
 /**
  * 帖子服务实现
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Service
 @Slf4j

@@ -1,6 +1,7 @@
 package com.xubanxian.mianshi8.job.cycle;
 
 import com.xubanxian.mianshi8.esdao.PostEsDao;
+import com.xubanxian.mianshi8.mapper.PostMapper;
 import com.xubanxian.mianshi8.model.dto.post.PostEsDTO;
 import com.xubanxian.mianshi8.model.entity.Post;
 import java.util.Date;
@@ -14,8 +15,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 /**
  * 增量同步帖子到 es
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 // todo 取消注释开启任务
 //@Component

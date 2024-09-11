@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xubanxian.mianshi8.common.ErrorCode;
+import com.xubanxian.mianshi8.mapper.PostFavourMapper;
 import com.xubanxian.mianshi8.model.entity.Post;
 import com.xubanxian.mianshi8.model.entity.PostFavour;
 import com.xubanxian.mianshi8.model.entity.User;
@@ -21,8 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 帖子收藏服务实现
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @Service
 public class PostFavourServiceImpl extends ServiceImpl<PostFavourMapper, PostFavour>

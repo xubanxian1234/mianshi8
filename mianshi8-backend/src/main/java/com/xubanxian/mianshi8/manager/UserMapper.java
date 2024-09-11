@@ -1,7 +1,7 @@
 package com.xubanxian.mianshi8.manager;
 
-import generator.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xubanxian.mianshi8.model.entity.User;
 
 /**
 * @author xubanxian
