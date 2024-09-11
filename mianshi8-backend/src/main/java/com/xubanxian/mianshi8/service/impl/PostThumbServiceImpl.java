@@ -3,7 +3,6 @@ package com.xubanxian.mianshi8.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xubanxian.mianshi8.common.ErrorCode;
-import com.xubanxian.mianshi8.mapper.PostThumbMapper;
 import com.xubanxian.mianshi8.model.entity.Post;
 import com.xubanxian.mianshi8.model.entity.PostThumb;
 import com.xubanxian.mianshi8.model.entity.User;

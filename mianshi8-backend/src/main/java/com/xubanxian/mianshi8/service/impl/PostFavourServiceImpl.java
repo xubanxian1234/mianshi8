@@ -6,7 +6,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xubanxian.mianshi8.common.ErrorCode;
-import com.xubanxian.mianshi8.mapper.PostFavourMapper;
 import com.xubanxian.mianshi8.model.entity.Post;
 import com.xubanxian.mianshi8.model.entity.PostFavour;
 import com.xubanxian.mianshi8.model.entity.User;

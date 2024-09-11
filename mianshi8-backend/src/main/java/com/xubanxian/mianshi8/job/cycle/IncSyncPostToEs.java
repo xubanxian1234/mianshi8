@@ -1,7 +1,6 @@
 package com.xubanxian.mianshi8.job.cycle;
 
 import com.xubanxian.mianshi8.esdao.PostEsDao;
-import com.xubanxian.mianshi8.mapper.PostMapper;
 import com.xubanxian.mianshi8.model.dto.post.PostEsDTO;
 import com.xubanxian.mianshi8.model.entity.Post;
 import java.util.Date;
